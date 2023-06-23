@@ -39,13 +39,13 @@ function runDetection() {
 
       if (y > 300) {
         if (x < 150) {
-          audio.src = 'G_Chord.mp3';
+          audio.src = 'audio/G_Chord.mp3';
         } else if (x > 400) {
-          audio.src = 'C_Chord.mp3';
+          audio.src = 'audio/C_Chord.mp3';
         } else if (x > 300) {
-          audio.src = 'Am_Chord.mp3';
+          audio.src = 'audio/Am_Chord.mp3';
         } else if (x > 100) {
-          audio.src = 'F_Chord.mp3';
+          audio.src = 'audio/F_Chord.mp3';
         }
       }
       // 播放聲音
